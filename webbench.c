@@ -29,7 +29,7 @@
 volatile int timerexpired=0;
 int speed=0;
 int failed=0;
-int bytes=0;
+long bytes=0;
 
 /* globals */
 int http10=1; /* 0 - http/0.9, 1 - http/1.0, 2 - http/1.1 */
